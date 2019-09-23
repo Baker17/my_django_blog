@@ -8,6 +8,10 @@
     </div>
     {% endif %}
 
+    <a href="{% url 'post_edit' pk=post.pk %}"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"
+            style="color:#339af0"></i></a>
+
+
     <h2>{{ post.title}}</h2>
     <p>{{ post.text|linebreaksbr }}</p>
     {% endblock %}
