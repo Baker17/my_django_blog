@@ -21,6 +21,9 @@
 
         <a href="{% url 'post_new' %}" class="top-menu"><i class="fa fa-plus-circle fa-2x" style="color:white"
                 aria-hidden="true"></i></a>
+
+        <p class="top-menu">Hello, {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+
         {% else %}
         <a href="{% url 'login' %}" class="top-menu"><i class="fa fa-sign-in fa-2x" style="color:white"
                 aria-hidden="true"></i></a>
