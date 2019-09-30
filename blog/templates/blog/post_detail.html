@@ -41,7 +41,7 @@
     <a href="{% url 'comment_remove' pk=comment.pk %}"><i class="fa fa-trash" aria-hidden="true"></i></a>
 
     {% endif %}
-
+    
     <strong>{{ comment.author }}</strong>
     <p>{{ comment.text | markdown | safe | linebreaksbr }}</p>
 </div>
