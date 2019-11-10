@@ -5,6 +5,7 @@ mistune==0.8.4
 Pigments==1.6
 pytz==2019.2
 sqlparse==0.3.0
+gunicorn==19.9.0
 requests==2.22.0
 Send2Trash==1.5.0
 six==1.12.0
@@ -19,4 +20,3 @@ wcwidth==0.1.7
 webencodings==0.5.1
 whitenoise==4.1.4
 widgetsnbextension==3.5.1
-gunicorn==19.9.0
